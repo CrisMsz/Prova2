@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "aula1809",
+    "slug": "aula1809",
+    "scheme": "aula1809",
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-sqlite"
+    ]
+  }
+}
