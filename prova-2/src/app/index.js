@@ -16,21 +16,14 @@ export default function Inicio() {
       </View>
 
       <View style={styles.cartao}>
-        <Text style={styles.cartaoTitulo}>Bordeis</Text>
-        <Text style={styles.detalhe}>...</Text>
-        <Link href="/bordel" style={styles.link}>
-          Ver meus bordeis →
+        <Text style={styles.cartaoTitulo}>Menu de Jogos</Text>
+        <Text style={styles.detalhe}>Cadastro/Lista/Exclusão/Edição</Text>
+        <Link href="/menuJogos" style={styles.link}>
+          Ver meu menu →
         </Link>
-        </View>
-
-        <View style={styles.cartao}>
-        <Text style={styles.cartaoTitulo}>Flores</Text>
-        <Text style={styles.detalhe}>...</Text>
-        <Link href="/flores" style={styles.link}>
-          Ver minhas flores →
-        </Link>
-        
       </View>
+
+
     </SafeAreaView>
   );
 }
@@ -91,7 +84,7 @@ const styles = StyleSheet.create({
   link: {
     fontSize: 15,
     fontWeight: "600",
-    color: "#2354D6",
+    color: "#29d623",
     marginTop: 4,
   },
 });
